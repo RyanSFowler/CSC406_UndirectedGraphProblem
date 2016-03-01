@@ -1,0 +1,67 @@
+Test of the Adjacency Matrix 
+Number of vertices: 5
+Number of edges: 4
+The degree of vertex 0 is 0
+The vertices adjacent to 0 are []
+The degree of vertex 1 is 3
+The vertices adjacent to 1 are [2, 3, 4]
+The degree of vertex 2 is 2
+The vertices adjacent to 2 are [1, 3]
+The degree of vertex 3 is 2
+The vertices adjacent to 3 are [1, 2]
+The degree of vertex 4 is 1
+The vertices adjacent to 4 are [1]
+4 and 1 are adjacent: true
+3 and 1 are adjacent: true
+1 and 3 are adjacent: true
+------Now we will remove some edges----------
+Remove the edge between 4 and 1
+Remove the edge between 1 and 3
+Number of edges: 2
+The degree of vertex 0 is 0
+The vertices adjacent to 0 are []
+The degree of vertex 1 is 1
+The vertices adjacent to 1 are [2]
+The degree of vertex 2 is 2
+The vertices adjacent to 2 are [1, 3]
+The degree of vertex 3 is 1
+The vertices adjacent to 3 are [2]
+The degree of vertex 4 is 0
+The vertices adjacent to 4 are []
+4 and 1 are adjacent: false
+3 and 1 are adjacent: false
+1 and 3 are adjacent: false
+___________________________________________________
+Test of the List
+Number of vertices: 5
+Number of edges: 4
+The degree of vertex 0 is 0
+The vertices adjacent to 0 are []
+The degree of vertex 1 is 3
+The vertices adjacent to 1 are [2, 3, 4]
+The degree of vertex 2 is 2
+The vertices adjacent to 2 are [1, 3]
+The degree of vertex 3 is 2
+The vertices adjacent to 3 are [1, 2]
+The degree of vertex 4 is 1
+The vertices adjacent to 4 are [1]
+4 and 1 are adjacent: true
+3 and 1 are adjacent: true
+1 and 3 are adjacent: true
+----------Now we will remove some edges---------------
+Remove the edge between 4 and 1
+Remove the edge between 1 and 3
+Number of edges: 2
+The degree of vertex 0 is 0
+The vertices adjacent to 0 are []
+The degree of vertex 1 is 1
+The vertices adjacent to 1 are [2]
+The degree of vertex 2 is 2
+The vertices adjacent to 2 are [1, 3]
+The degree of vertex 3 is 1
+The vertices adjacent to 3 are [2]
+The degree of vertex 4 is 0
+The vertices adjacent to 4 are []
+4 and 1 are adjacent: false
+3 and 1 are adjacent: false
+1 and 3 are adjacent: false
